@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
 
-    <link href = "styles.css" rel="stylesheet"/>
-   
+    <link href="styles.css" rel="stylesheet" />
+
 </head>
+
 <body>
     <h1>Vinaykumar's Component Library</h1>
-    <p>Welcome to my Component Library session . I will make all my projects 
-    look good and consisent</p>
+    <p>Welcome to my Component Library session . I will make all my projects
+        look good and consisent</p>
 
     <hr>
 
@@ -31,7 +33,7 @@
 
     <h3>center container</h3>
     <div class="container container-center">This is a centered container and it will go till end of the page</div>
-    
+
     <hr>
 
     <h2>@links</h2>
@@ -55,7 +57,7 @@
         <li class="list-inline"> Inline Item Two </li>
         <li class="list-inline"> Inline Item Three </li>
     </ul>
-    
+
     <h3> Reverse Ordered list</h3>
     <ol reversed>
         <li> Milk </li>
@@ -87,32 +89,59 @@
 
     <header class="head">
         <img class="head-img" src="images/html-css.svg" />
-        <h1 class="inside-head"> Welcome to HTML CSS, 
-        <spam class="heading-inverted">we are inside HTML header</spam></h1>
+        <h1 class="inside-head"> Welcome to HTML CSS,
+            <spam class="heading-inverted">we are inside HTML header</spam>
+        </h1>
     </header>
 
     <hr>
     <h2>@section</h2>
-    <section>
-        <h3>White Section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h3>White Section</h3>
+            <p>Container queries enable you to apply
+                styles to an element based on the size
+                of the element's container.
+                If, for example, a container has less space
+                available in the surrounding context, you
+                can hide certain elements or use smaller fonts.
+                Container queries are an alternative to
+                media queries, which apply styles to elements
+                based on viewport size or other device
+                characteristics.</p>
+        </div>
+
     </section>
 
-    <section>
-        <h3>Off White Section</h3>
-        <p>This will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>Off White Section</h3>
+            <p>Container queries enable you to apply
+                styles to an element based on the size
+                of the element's container.
+                If, for example, a container has less space
+                available in the surrounding context, you
+                can hide certain elements or use smaller fonts.
+                Container queries are an alternative to
+                media queries, which apply styles to elements
+                based on viewport size or other device
+                characteristics.</p>
+        </div>
     </section>
 
-    <hr> 
+    <hr>
     <h2>@footer</h2>
-    <footer>
-        <div>
-            Some small heading inside footer 
+    <footer class="footer">
+        <div class="footer-header">
+            Some small heading inside footer
         </div>
         <ul>
-            <li>Social One</li>
-            <li>Social Two</li>
-            <li>Social Three</li>
+            <li class="list-inline">
+                <a class="link" href="/">Social One</a> </li>
+            <li class="list-inline">
+                <a class="link" href="/"> Social Two</a></li>
+            <li class="list-inline">
+                <a class="link" href="/">Social Three</a> </li>
         </ul>
     </footer>
 
@@ -122,6 +151,7 @@
 
 
 
-    
+
 </body>
+
 </html>
