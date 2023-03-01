@@ -43,40 +43,40 @@
     <h2>@lists</h2>
 
     <h3> Unordered list</h3>
-    <ul>
+    <ul class="list-with-nobullet">
         <li> Item one </li>
         <li> Item Two </li>
         <li> Item Three </li>
     </ul>
 
     <h3> Unordered inline list</h3>
-    <ul>
-        <li> Inline Item one </li>
-        <li> Inline Item Two </li>
-        <li> Inline Item Three </li>
+    <ul class="list-with-nobullet">
+        <li class="list-inline"> Inline Item one </li>
+        <li class="list-inline"> Inline Item Two </li>
+        <li class="list-inline"> Inline Item Three </li>
     </ul>
     
     <h3> Reverse Ordered list</h3>
-    <ol>
+    <ol reversed>
         <li> Milk </li>
         <li> Eggs </li>
-        <li> Break </li>
+        <li> Bread </li>
     </ol>
 
     <hr>
 
     <h2>@nav</h2>
-    <nav>
-        <div> Brand </div>
-        <ul>
-            <li>
-                <a href="/">HOME</a>
+    <nav class="navigation container">
+        <div class="nav-brand"> My Brand </div>
+        <ul class="list-with-nobullet nav-pills">
+            <li class="list-inline">
+                <a class="link" href="/">HOME</a>
             </li>
-            <li>
-                <a href="/">PRODUCTS</a>
+            <li class="list-inline">
+                <a class="link" href="/">PRODUCTS</a>
             </li>
-            <li>
-                <a href="/">ABOUT</a>
+            <li class="list-inline">
+                <a class="link" href="/">ABOUT</a>
             </li>
         </ul>
     </nav>
